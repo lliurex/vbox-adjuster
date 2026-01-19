@@ -1,4 +1,4 @@
-Source: cdc-mapper-vboxusers
+Source: vbox-ajuster
 Section: utils
 Priority: optional
 Maintainer: Lliurex Team <lliurex@gva.es>
@@ -11,3 +11,9 @@ Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends},cdc-mapper
 Description: Config for VirtualBox for CDC users
  Create a config for VirtualBox to CDC users
+
+Package: llx-vbox-config
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Config some settins in VirtualBox
+ Create a config for VirtualBox in LliureX
