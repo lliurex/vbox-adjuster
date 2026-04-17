@@ -1,3 +1,9 @@
+vbox-adjuster (1.2) noble; urgency=medium
+
+  * Remove old code with cdc-mapper. Now it's not a service
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 17 Apr 2026 13:59:07 +0200
+
 vbox-adjuster (1.1.0) noble; urgency=medium
 
   * Added llx-vbox-config pkg
