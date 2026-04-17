@@ -21,7 +21,6 @@ set -e
 
 case "$1" in
     purge|remove)
-        systemctl restart cdc-mapper.service || true
     
     ;;
     upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)

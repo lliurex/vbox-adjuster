@@ -8,7 +8,7 @@ Homepage: https://www.lliurex.net
 
 Package: cdc-mapper-vboxusers
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends},cdc-mapper
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Config for VirtualBox for CDC users
  Create a config for VirtualBox to CDC users
 

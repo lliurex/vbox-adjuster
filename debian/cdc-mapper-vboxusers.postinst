@@ -19,7 +19,6 @@ set -e
 
 case "$1" in
     configure)
-       systemctl restart cdc-mapper.service || true
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
